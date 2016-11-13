@@ -1,2 +1,2 @@
 # webapplications
-Nur ein paar Spielprojekte
+Nur ein paar Spielprojekte zum Ausprobieren

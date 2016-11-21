@@ -1,0 +1,22 @@
+table{
+  border: dotted;
+}
+h1{
+   text-decoration: underline;
+   color: blue;
+}
+td.Lateinzelle{
+  font-style: italic;
+}
+td.Deutschzelle{
+  color: white;
+}
+td.Deutschzelle:hover{
+  color:green;
+}
+thead{
+  text-decoration: underline;
+}
+td.Überschrift{
+  color: red;
+}

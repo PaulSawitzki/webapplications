@@ -5,13 +5,13 @@ h1{
    text-decoration: underline;
    color: blue;
 }
-td.Lateinzelle{
+td.SichtbareVokabelZelle{
   font-style: italic;
 }
-td.Deutschzelle{
+td.VerborgeneZelle{
   color: white;
 }
-td.Deutschzelle:hover{
+td.VerborgeneZelle:hover{
   color:green;
 }
 thead{

@@ -11,8 +11,10 @@ td.SichtbareVokabelZelle{
 td.VerborgeneZelle{
   color: white;
 }
-td.VerborgeneZelle:hover{
+td.VerborgeneZelle:hover, td.VerborgeneZelle:active{
   color:green;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none
 }
 thead{
   text-decoration: underline;

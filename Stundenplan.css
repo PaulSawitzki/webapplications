@@ -1,0 +1,25 @@
+table{
+  border: solid;
+  background-color:aqua
+}
+h1{
+   text-decoration: underline;
+   color: blue;
+}
+thead{
+  text-decoration: underline;
+  font-size: 22px;
+}
+p.Meldungen{
+  color: red;
+  animation: blinker 5s linear infinite;
+  font-size: 22px;
+  text-decoration: bold;
+}
+td.Hauptfach{
+  font-weight: bold;
+}
+
+@keyframes blinker{
+  50% {opacity: 0;}
+}

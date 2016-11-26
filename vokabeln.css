@@ -23,5 +23,11 @@ td.Überschrift{
   color: red;
 }
 p.Meldungen{
-  color: red
+  color: red;
+  animation: blinker 5s linear infinite;
+  font-size: 22px;
+  text-decoration: bold;
+}
+@keyframes blinker{
+  50% {opacity: 0;}
 }

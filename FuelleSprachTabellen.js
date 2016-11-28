@@ -1,7 +1,7 @@
 
-function programm(){
+function programm2(){
   werkzeug.getJSON(werkzeug.getParameterByName("lektion") + ".json", function(vokabeln){
-    console.log(vokabeln);
+  //  console.log(vokabeln);
     var bereich_fuer_tabelle1 = werkzeug("#Fremdsprache-Deutsch-body");
 
     werkzeug.each(vokabeln, function(index, element){
@@ -18,4 +18,4 @@ function programm(){
     });
   });
 }
-werkzeug.start(programm);
+werkzeug.start(programm2);

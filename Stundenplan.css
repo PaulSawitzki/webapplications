@@ -1,6 +1,7 @@
 table{
   border: solid;
-  background-color:aqua
+  background-color: aqua;
+}
 }
 h1{
    text-decoration: underline;
@@ -18,6 +19,14 @@ p.Meldungen{
 }
 td.Hauptfach{
   font-weight: bold;
+}
+td.Termin{
+  font-weight: bold;
+  color: red;
+}
+td.Feiertag{
+  font-weight: bold;
+  color: blue;
 }
 
 @keyframes blinker{

@@ -17,6 +17,6 @@ Benutzung des Vokabel-Converters:
 
   Beispiel
 
-  node vokabel-werkzeug.js swahili/Swahili.29.11.2016
+  node vokabel_werkzeug.js swahili/Swahili.29.11.2016
 
   Als Ergebnis wird die .json-Datei generiert und kann dann sofort eingebunden werden

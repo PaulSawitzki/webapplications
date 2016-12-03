@@ -14,9 +14,16 @@
   <h1>Auch wenn Französisch Mist ist-lernen musst du sowieso</h1>
   <p>hier die Vokabeln der neuen Lektion</p>
   <div id="auswahlfeld">
-  Französisch-Deutsch <input type="radio" name="Auswahl" id="Fremdsprache-Deutsch-auswahl"/>
-  Deutsch-Französisch <input type="radio" name="Auswahl" id="Deutsch-Fremdsprache-auswahl"/>
-</div>
+    <table id="auswahlfeld_tabelle">
+      <tr>
+        <td><input type="radio" name="Auswahl" id="Fremdsprache-Deutsch-auswahl"</td><td>Französisch-Deutsch</td>
+        <td><input type="radio" name="Auswahl" id="Deutsch-Fremdsprache-auswahl"/></td><td>Deutsch-Französisch</td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="Auswahl" id="Deutsch-Fremdsprache-Zufall-auswahl"/></td><td>Deutsch-Französisch (Zufällig)</td>
+      </tr>
+  </table>
+  </div>
   <table id="Fremdsprache-Deutsch-tabelle">
     <thead>
       <tr>
@@ -39,6 +46,18 @@
       </tr>
     </thead>
     <tbody id="Deutsch-Fremdsprache-body">
+    </tbody>
+  </table>
+  <table id="Deutsch-Fremdsprache-Zufalltabelle">
+    <thead>
+      <tr>
+        <td class="Überschrift">Deutsch
+        </td>
+        <td class="Überschrift">Französisch
+        </td>
+      </tr>
+    </thead>
+    <tbody id="Deutsch-Fremdsprache-Zufall-body">
     </tbody>
   </table>
   <p>Hausaufgaben:</p>

@@ -14,9 +14,16 @@
   <h1>Auch wenn Latein Mist ist-lernen musst du sowieso</h1>
   <p>hier die Vokabeln der neuen Lektion</p>
   <div id="auswahlfeld">
-  Latein-Deutsch <input type="radio" name="Auswahl" id="Fremdsprache-Deutsch-auswahl"/>
-  Deutsch-Latein <input type="radio" name="Auswahl" id="Deutsch-Fremdsprache-auswahl"/>
-</div>
+    <table id="auswahlfeld_tabelle">
+      <tr>
+        <td><input type="radio" name="Auswahl" id="Fremdsprache-Deutsch-auswahl"</td><td>Latein-Deutsch</td>
+        <td><input type="radio" name="Auswahl" id="Deutsch-Fremdsprache-auswahl"/></td><td>Deutsch-Latein</td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="Auswahl" id="Deutsch-Fremdsprache-Zufall-auswahl"/></td><td>Deutsch-Latein (Zufällig)</td>
+      </tr>
+  </table>
+  </div>
   <table id="Fremdsprache-Deutsch-tabelle">
     <thead>
       <tr>
@@ -39,6 +46,18 @@
       </tr>
     </thead>
     <tbody id="Deutsch-Fremdsprache-body">
+    </tbody>
+  </table>
+  <table id="Deutsch-Fremdsprache-Zufall-tabelle">
+    <thead>
+      <tr>
+        <td class="Überschrift">Deutsch
+        </td>
+        <td class="Überschrift">Latein
+        </td>
+      </tr>
+    </thead>
+    <tbody id="Deutsch-Fremdsprache-Zufall-body">
     </tbody>
   </table>
   <p>Hausaufgaben:</p>

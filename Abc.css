@@ -1,0 +1,31 @@
+html{
+  background-color:gray;
+}
+h1{
+  font-size: 80px;
+  color:#1f50ff;
+  font-weight: bold;
+}
+#Note{
+  font-size: 100px;
+  color:red;
+  font-weight: bold;
+}
+td.Punkte{
+  color:gray;
+}
+td.Aufgeloest{
+  color:red;
+}
+
+table{
+  border: solid;
+}
+table.Auswertung{
+  color:gray;
+  border-color: gray;
+}
+table.Auswertung:hover{
+  color:black;
+  border-color: black
+}

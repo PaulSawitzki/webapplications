@@ -1,0 +1,71 @@
+<html>
+<head>
+<meta charset="UTF-8"></meta>
+  <title>Vokabeln lernen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"></meta>
+  <link rel="stylesheet" href="Abc.css"></link>
+  <script src="werkzeug.js" type="text/javascript"></script>
+  <script src="Abc.js" type="text/javascript"></script>
+  <script>document.addEventListener("touchstart", function(){}, true);</script>
+</head>
+<body>
+  <h1>Test</h1><h1 id="Note"></h1>
+  <table id="AufgabenTabelle">
+    <thead>
+      <tr>
+        <td>Aufgabe</td><td>Optionen</td><td>Punkte</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>arrival</td><td>Arbeit<input type="radio" name="arrival"/>Lösung<input type="radio" name="arrival"/>Ankunft<input type="radio" name="arrival" class="richtig"/></td><td class="Punkte"></td>
+      </tr>
+      <tr>
+        <td>step</td><td>Schritt;Stufe<input type="radio" name="step" class="richtig"/>Treppe<input type="radio" name="step"/>Schritt<input type="radio" name="step"/></td><td class="Punkte"</td>
+      </tr>
+      <tr>
+        <td>to search</td><td>suchen(nach)<input type="radio" name="to search"/>durchsuchen<input type="radio" name="to search" class="richtig"/>fluchen<input type="radio" name="to search"/></td><td class="Punkte"</td>
+      </tr>
+      <tr>
+        <td>corner</td><td>Haus<input type="radio" name="corner"/>Reißverschluss<input type="radio" name="corner"/>Ecke<input type="radio" name="corner" class="richtig"/></td><td class="Punkte"</td>
+      </tr>
+      <tr>
+        <td>officer</td><td>Beamter<input type="radio" name="officer" class="richtig"/>Paket<input type="radio" name="officer"/>Vorteil<input type="radio" name="officer"/></td><td class="Punkte"</td>
+      </tr>
+    </tbody>
+  </table>
+  <table id=Auswertung>
+    <thead>
+      <tr>
+        <td>Note</td><td>Punkte</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td><td>5Punkte</td>
+      </tr>
+      <tr>
+        <td>2</td><td>4Punkte</td>
+      </tr>
+      <tr>
+        <td>3</td><td>3Punkte</td>
+      </tr>
+      <tr>
+        <td>4</td><td>2Punkte</td>
+      </tr>
+      <tr>
+        <td>5</td><td>1Punkt</td>
+      </tr>
+      <tr>
+        <td>6</td><td>0Punkte</td>
+      </tr>
+    </tbody>
+  </table>
+  <div id="auswahlfeld">
+<input type="button"  value=" zur Auflösung" id="Auflösung"/>
+</div>
+<div id="Ergebnis">
+</div>
+<a href="Tests_Hauptseite.html">Hauptseite</a>
+</body>
+</html>

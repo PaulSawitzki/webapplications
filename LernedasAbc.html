@@ -1,0 +1,875 @@
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Lerne das Abc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" href="Memory.css">
+  <script src="werkzeug.js" type="text/javascript"></script>
+  <script src="LernedasAbc.js" type="text/javascript"></script>
+  <script>document.addEventListener("touchstart", function(){}, true);</script>
+</head>
+<body>
+<div id="auswahlfeld">
+<table id="bereich1">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="Auswahl1" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich2">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="Auswahl2" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich3">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td><td/><input id="Auswahl3" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich4">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="Auswahl4" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich5">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="Auswahl5" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich6">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="Auswahl6" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich7">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="Auswahl7" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich8">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="Auswahl8" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich9">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="Auswahl9" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich10">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="Auswahl10" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich11">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="Auswahl11" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich12">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="Auswahl12" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich13">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="Auswahl13" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich14">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="Auswahl14" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich15">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="Auswahl15" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich16">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="Auswahl16" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td></tr></table>
+<table id="bereich17">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="Auswahl17" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich18">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="Auswahl18" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich19">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="Auswahl19" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich20">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="Auswahl20" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich21">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="Auswahl21" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich22">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="Auswahl22" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich23">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="Auswahl23" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich24">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="Auswahl24" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich25">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="Auswahl25" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich26">
+  <thead><tr><td>Was ist die Reihenfolge der Buchstaben?</td></tr></thead>
+  <tbody>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="C" value="C"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Y" value="Y"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="L" value="L"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="A" value="A"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="F" value="F"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="M" value="M"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="B" value="B"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="N" value="N"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="I" value="I"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="Q" value="Q"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="O" value="O"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="E" value="E"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="S" value="S"></td>
+    </tr>
+    <tr>
+      <td/><td><input id="falsch" type="button" name="Auswahl" class="H" value="H"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="K" value="K"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="D" value="D"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="P" value="P"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="X" value="X"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="J" value="J"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="V" value="V"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="R" value="R"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="T" value="T"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="G" value="G"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="U" value="U"></td>
+      <td><input id="falsch" type="button" name="Auswahl" class="W" value="W"></td>
+      <td><input id="Auswahl26" type="button" name="Auswahl" class="Z" value="Z"></td>
+</table>
+<table id="bereich27">
+  <tr><td>Falsch</td></tr>
+</table>
+</div>
+</body>
+</html>

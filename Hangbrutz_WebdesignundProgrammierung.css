@@ -1,0 +1,27 @@
+body{
+  background-color: #dfc;
+}
+h1{
+  text-decoration: underline;
+  text-align: center;
+}
+h2{
+  text-decoration: overline;
+}
+td{
+  font-weight: bold;
+}
+table{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#Durchgestrichen{
+  text-decoration: line-through;
+}
+#Korrektur{
+  font-style: italic;
+}
+#h2{
+  margin-left: 33%;
+  margin-right: 33%;
+}

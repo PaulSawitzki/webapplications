@@ -1,0 +1,72 @@
+<html>
+<head>
+<meta charset="UTF-8"></meta>
+  <title>Vokabeln lernen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"></meta>
+  <link rel="stylesheet" href="Abc.css"></link>
+  <script src="werkzeug.js" type="text/javascript"></script>
+  <script src="Abc.js" type="text/javascript"></script>
+  <script>document.addEventListener("touchstart", function(){}, true);</script>
+</head>
+<body>
+  <h1>Test</h1><h1 id="Note"></h1>
+  <p>* steht für "mal"</p>
+  <table id="AufgabenTabelle">
+    <thead>
+      <tr>
+        <td>Aufgabe</td><td>Optionen</td><td>Punkte</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Hauptperson</td><td>Wayne Conelly<input type="radio" name="Hauptperson"/>Rudy Moore<input type="radio" name="Hauptperson"/>Colin Fischer<input type="radio" name="Hauptperson" class="richtig"/></td><td class="Punkte"></td>
+      </tr>
+      <tr>
+        <td>Arbeit</td><td>E vorher-E nachher<input type="radio" name="Arbeit"/>E nachher-E vorher<input type="radio" name="Arbeit" class="richtig"/>sdm<input type="radio" name="Arbeit"/></td><td class="Punkte"</td>
+      </tr>
+      <tr>
+        <td>Widerstand</td><td>U:I<input type="radio" name="Widerstand" class="richtig"/>I:U<input type="radio" name="Widerstand" />R-I<input type="radio" name="Widerstand"/></td><td class="Punkte"</td>
+      </tr>
+      <tr>
+        <td>Spannenergie</td><td>0,5mv²<input type="radio" name="Spannenergie"/>ds²<input type="radio" name="Spannenergie"/>0,5ds²<input type="radio" name="Spannenergie" class="richtig"/></td><td class="Punkte"</td>
+      </tr>
+      <tr>
+        <td>Bewegungsenergie</td><td>0,5ds²<input type="radio" name="Bewegungsenergie"/>0,5mv²<input type="radio" name="Bewegungsenergie" class="richtig"/>gmv²<input type="radio" name="Bewegungsenergie"/></td><td class="Punkte"</td>
+      </tr>
+    </tbody>
+  </table>
+  <table id=Auswertung>
+    <thead>
+      <tr>
+        <td>Note</td><td>Punkte</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td><td>5Punkte</td>
+      </tr>
+      <tr>
+        <td>2</td><td>4Punkte</td>
+      </tr>
+      <tr>
+        <td>3</td><td>3Punkte</td>
+      </tr>
+      <tr>
+        <td>4</td><td>2Punkte</td>
+      </tr>
+      <tr>
+        <td>5</td><td>1Punkt</td>
+      </tr>
+      <tr>
+        <td>6</td><td>0Punkte</td>
+      </tr>
+    </tbody>
+  </table>
+  <div id="auswahlfeld">
+<input type="button"  value=" zur Auflösung" id="Auflösung"/>
+</div>
+<div id="Ergebnis">
+</div>
+<a href="Tests_Hauptseite.html">Hauptseite</a>
+</body>
+</html>

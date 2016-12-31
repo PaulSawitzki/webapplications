@@ -1,0 +1,113 @@
+body{
+  background-color: black;
+  color:red;
+  font-family: sans-serif;
+}
+div.red{
+  color:red;
+  text-decoration: underline ;
+  animation: blinker 2s linear infinite;
+}
+h1{
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 36px;
+  color:red;
+}
+h2{
+  text-decoration: underline;
+  color:red;
+}
+p.Meldung{
+  font-size: 15px;
+  text-align: center;
+  color:red;
+}
+ol{
+  font-size: 15px;
+  color:red;
+}
+@keyframes blinker{
+  50% {opacity: 0;}
+}
+table{
+  background-color: #600;
+  color:white;
+  font-size: 31px;
+  text-align: center;
+  width:70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+a{
+  color:orange;
+}
+a.Tabellenlink{
+  color:white;
+}
+p{
+  color:red;
+}
+td.ausgewählt{
+  background-color: red;
+}
+a.Youtubelink{
+  font-size: 15px;
+  color:red;
+}
+p.sonstiges{
+  font-size: 15px;
+}
+#Aufgabentabelle{
+  font-size: 17px;
+  background-color:#300;
+  color:#555;
+}
+#Auswertung{
+  font-size: 17px;
+  background-color:#300;
+  color:#555;
+}
+td.Punkte{
+  color:#300;
+}
+#Infos{
+  font-size: 15px;
+}
+td.punkte.Aufgeloest{
+  color:red;
+}
+span.bild{
+  color:#500;
+}
+#Flamme{
+  height: 40px;
+}
+#Flamme2{
+  height: 40px;
+}
+p.sonstiges{
+  text-align: center;
+}
+#E-Gittarre{
+  height: 40px;
+}
+#Mikrofon{
+  height: 40px;
+  text-align: center;
+}
+td.Bild{
+  background-color:#300;
+  color:#300;
+}
+#Weihnachtsbild{
+  width:70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#Explosion{
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 400px;
+}

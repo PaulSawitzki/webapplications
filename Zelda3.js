@@ -30,6 +30,8 @@ function programm(){
   werkzeug("#Schwert3").hide();
   werkzeug("#Schwerter").hide();
   werkzeug("#auswahlfeld").click(einblenden_eines_Objekts);
+  werkzeug("#Schiff tr td").hover(Spiel);
+  werkzeug("table tr td img").hover(versteckt)
 }
 function einblenden_eines_Objekts(event){
   var button1 = werkzeug("#Auswahl1");
@@ -140,8 +142,6 @@ if (selected_button.is(button7)){
   werkzeug("#bereich4").hide();
   werkzeug("#bereich5").hide();
   werkzeug("#bereich6").show();
-  werkzeug("#Schwerter").show();
-  werkzeug("#Schwert1").show();
 }
 if (selected_button.is(button9)){
   werkzeug("#bereich1").hide();
@@ -174,8 +174,6 @@ if (selected_button.is(button12)){
   werkzeug("#bereich4").hide();
   werkzeug("#bereich5").hide();
   werkzeug("#bereich6").show();
-  werkzeug("#Schwerter").show();
-  werkzeug("#Schwert1").show();
 }
 if (selected_button.is(button13)){
   werkzeug("#bereich1").hide();
@@ -262,8 +260,6 @@ if (selected_button.is(button21)){
   werkzeug("#bereich6").show();
   werkzeug("#bereich7").hide();
   werkzeug("#bereich8").hide();
-  werkzeug("#Schwerter").show();
-  werkzeug("#Schwert1").show();
 }
 if (selected_button.is(button22)){
   werkzeug("#bereich1").hide();
@@ -462,6 +458,8 @@ if (selected_button.is(button35)){
   werkzeug("#bereich16").hide();
   werkzeug("#bereich17").hide();
   werkzeug("#bereich18").show();
+  werkzeug("#Schwerter").show();
+  werkzeug("#Schwert2").show();
 }
 if (selected_button.is(button36)){
   werkzeug("#bereich1").hide();
@@ -1085,5 +1083,47 @@ if (selected_button.is(button61)){
   werkzeug("#bereich25").hide();
   werkzeug("#bereich26").hide();
 }
+}
+function Spiel(event){
+  var Schiff = werkzeug("#Schiff");
+  var falsch1 = werkzeug("#x1");
+  var falsch2 = werkzeug("#x2");
+  var falsch3 = werkzeug("#x3");
+  var falsch4 = werkzeug("#x4");
+  var falsch5 = werkzeug("#x5")
+  var falsch6 = werkzeug("#x6")
+  var hoverd = werkzeug(event.target);
+
+  if (hoverd.is(falsch1)){
+  werkzeug("#bereich11").hide();
+  werkzeug("#bereich14").show();
+}
+if (hoverd.is(falsch2)){
+werkzeug("#bereich11").hide();
+werkzeug("#bereich14").show();
+}
+if (hoverd.is(falsch3)){
+werkzeug("#bereich11").hide();
+werkzeug("#bereich14").show();
+}
+if (hoverd.is(falsch4)){
+werkzeug("#bereich11").hide();
+werkzeug("#bereich14").show();
+}
+if (hoverd.is(falsch5)){
+werkzeug("#bereich11").hide();
+werkzeug("#bereich14").show();
+}
+if  (hoverd.attr('id') == "x6"){
+werkzeug("#bereich11").hide();
+werkzeug("#bereich14").show();
+}
+}
+function versteckt(event){
+  var hoverd = werkzeug(event.target);
+   if (hoverd.attr('id') == "Busch"){
+     werkzeug("#Schwerter").show();
+     werkzeug("#Schwert1").show();
+   }
 }
 werkzeug.start(programm);

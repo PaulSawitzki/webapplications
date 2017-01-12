@@ -1,0 +1,384 @@
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Zelda Labyrinth</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" href="Zelda5.css">
+  <script src="werkzeug.js" type="text/javascript"></script>
+  <script src="Zelda5.js" type="text/javascript"></script>
+  <script>document.addEventListener("touchstart", function(){}, true);</script>
+</head>
+<body>
+<div id="auswahlfeld">
+  <table id="Schwerter">
+    <tr>
+      <td><img class="Schwerter" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png" id="Schwert1"></td><td><img class="Schwerter" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png" id="Schwert2"></td><td><img class="Schwerter" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png" id="Schwert3"></td></tr></table>
+  <div id="bereich1">
+  <table>
+      <tr><td/><td><input id="Auswahl5" type="button" value="/\"></input></td><td/></tr>
+    <tr><td><input type="button" value="<="/></td><td/><td><input id="Auswahl1" type="button" value="=>"/></td></tr>
+    <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+  </table>
+  <table>
+    <thead>
+      <tr><td/><td/><td/>
+    </thead>
+    <tbody>
+      <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td></tr>
+      <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/><img id="Busch" src="https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/></td></tr>
+    </tbody>
+  </table>
+</div>
+  <div id="bereich2">
+  <table>
+    <tr><td/><td><input id="Auswahl6" type="button" value="/\"></input></td><td/></tr>
+    <tr><td><input id="Auswahl2"  type="button" value="<="/></td><td/><td><input type="button" id="Auswahl3"  value="=>"/></td></tr>
+    <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+  </table>
+  <table>
+    <thead>
+      <tr><td/><td/><td/>
+    </thead>
+    <tbody>
+      <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td></tr>
+      <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"><img id="Busch" src="https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/></td></tr>
+    </tbody>
+  </table>
+</div>
+<div id="bereich3">
+<table>
+  <tr><td/><td><input id="Auswahl7" type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" id="Auswahl4"  value="<="/></td><td/><td><input id="Auswahl17" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/><img id="Busch" src="https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich4">
+<table>
+  <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" id="Auswahl8"  value="<="/></td><td/><td><input id="Auswahl9" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl10" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/><img id="Busch" src="https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich5">
+<table>
+  <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" id="Auswahl11"  value="<="/></td><td/><td><input id="Auswahl12" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl13" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/><img id="Busch" src="https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"></td><table>
+      <thead>
+        <tr><td/><td/><td/>
+      </thead>
+      <tbody></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich6">
+<table>
+  <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" id="Auswahl14"  value="<="/></td><td/><td><input id="Auswahl15" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl16" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/><img id="Busch" src="https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich7">
+<table>
+  <tr><td/><td><input type="button"id="Auswahl18" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" id="Auswahl19"  value="<="/></td><td/><td><input id="Auswahl20" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+  <tr><td/><td><input id="Auswahl24" type="button" value="Spielen"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"/></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/><img id="Busch" src="https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich8">
+<table>
+  <tr><td/><td><input  type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" id="Auswahl21"  value="<="/></td><td/><td><input id="Auswahl22" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl23" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/12/11/57/cloud-144983_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"/></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/><img id="Busch" src="https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/10/11/40/volcano-1728164_960_720.jpg"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich11">
+<table>
+<tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+<tr><td><input type="button" value="<="/></td><td/><td><input type="button" value="=>"/></td></tr>
+<tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+<tr><td/><td><input type="button" value="gemerkt" id="Auswahl25"/></td><td/></tr>
+</table>
+<table id="Schiff">
+  <tr><td class="red"></td><td class="q"></td><td class="red"></td></tr>
+  <tr><td class="q"></td><td class="red"></td><td class="red"></td></tr>
+  <tr><td class="red"></td><td class="q"></td><td class="red"></td></tr>
+  <tr><td class="q"></td><td class="red"></td><td class="red"></td></tr>
+  <tr><td class="q"></td><td class="red"></td><td class="red"></td></tr>
+  <tr><td class="red"></td><td class="q"></td><td class="red"></td></tr>
+  <tr><td class="red"></td><td class="q"><input type="button" value="weiter"/></td><td class="red"></td></tr>
+  <tr><td class="red"></td><td class="red"></td><td class="red"></td></tr>
+</table>
+</div>
+<div id="bereich12">
+<table>
+<tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+<tr><td><input type="button" value="<="/></td><td/><td><input type="button" value="=>"/></td></tr>
+<tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+<table id="Schiff">
+  <tr><td id="x1"></td><td class="v"></td><td id="x6"></td></tr>
+  <tr><td class="v"></td><td id="x6"></td><td id="x6"></td></tr>
+  <tr><td id="x2"></td><td class="v"></td><td id="x6"></td></tr>
+  <tr><td class="v"></td><td id="x6"></td><td id="x6"></td></tr>
+  <tr><td class="v"></td><td id="x6"></td><td id="x6"></td></tr>
+  <tr><td id="x2"></td><td class="v"></td><td id="x6"></td></tr>
+  <tr><td id="x3"></td><td class="v"><input type="button" id="Auswahl35" value="Weiter"/></td><td id="x6"></td></tr>
+  <tr><td id="x4"></td><td id="x5"></td><td id="x6"></td></tr>
+</table>
+</div>
+<div id="bereich14">
+<p>Game Over!!!</p>
+</div>
+  <div id="bereich18">
+  <table>
+      <tr><td/><td><input id="Auswahl36" type="button" value="/\"></input></td><td/></tr>
+    <tr><td><input type="button" value="<="/></td><td/><td><input id="Auswahl37" type="button" value="=>"/></td></tr>
+    <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+  </table>
+  <table>
+    <thead>
+      <tr><td/><td/><td/>
+    </thead>
+    <tbody>
+      <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"/></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td></tr>
+      <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2014/12/21/23/45/door-575979_960_720.png"/></td></tr>
+    </tbody>
+  </table>
+</div>
+<div id="bereich19">
+<table>
+    <tr><td/><td><input id="Auswahl38" type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input id="Auswahl39" type="button" value="<="/></td><td/><td><input id="Auswahl40" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"/></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2014/12/21/23/45/door-575979_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich20">
+<table>
+    <tr><td/><td><input id="Auswahl41" type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input id="Auswahl42" type="button" value="<="/></td><td/><td><input id="Auswahl43" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"/></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2014/12/21/23/45/door-575979_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich21">
+<div id="Truhe">
+<table>
+    <tr><td/><td><input id="Auswahl44" type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input id="Auswahl45" type="button" value="<="/></td><td/><td><input type="button" value="=>"/></td></tr>
+  <tr id="Truheöffnen"><td/><td><input id="Auswahl47" type="button" value="betreten"/></td><td/></tr>
+  <tr id="Truheschließen"><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+</div>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"/></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"/><img src="https://cdn.pixabay.com/photo/2014/12/21/23/45/door-575979_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich22">
+  <table>
+    <tr><td><img src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/></tr>
+    <tr><td><img src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/></tr>
+    <tr><td><img src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2016/11/13/17/48/dragons-1821541_960_720.png"/></td></tr>
+  </table>
+  <input type="button" id="Auswahl62" value="weiter"/>
+</div>
+<div id="bereich28">
+  <table>
+    <tr><td><img id="falsch" src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/><td><img src="https://cdn.pixabay.com/photo/2016/03/31/19/32/clouds-1295098_960_720.png"/></td></tr>
+    <tr><td><img id="Auswahl67" src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/><td><img src="https://cdn.pixabay.com/photo/2016/03/31/19/32/clouds-1295098_960_720.png"/></td></tr>
+    <tr><td><img id="falsch" src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/><td><img src="https://cdn.pixabay.com/photo/2016/03/31/19/32/clouds-1295098_960_720.png"/></td></tr>
+  </table>
+  <p>hoch,hoch,runter,hoch</p>
+  <p>runter,runter,hoch,runter,hoch</p>
+</div>
+<div id="bereich29">
+  <table>
+    <tr><td><img src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/></tr>
+    <tr><td><img src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2016/11/13/17/48/dragons-1821541_960_720.png"/></td></tr>
+    <tr><td><img src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/></tr>
+  </table>
+  <input type="button" value="weiter" id="Auswahl63"/>
+</div>
+<div id="bereich30">
+  <table>
+    <tr><td><img id="Auswahl68" src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/><td><img src="https://cdn.pixabay.com/photo/2016/03/31/19/32/clouds-1295098_960_720.png"/></td></tr>
+    <tr><td><img id="falsch" src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/><td><img src="https://cdn.pixabay.com/photo/2016/03/31/19/32/clouds-1295098_960_720.png"/></td></tr>
+    <tr><td><img id="falsch" src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/><td><img src="https://cdn.pixabay.com/photo/2016/03/31/19/32/clouds-1295098_960_720.png"/></td></tr>
+  </table>
+  <p>hoch,runter,hoch,runter</p>
+  <p>runter,hoch,runter,hoch,hoch</p>
+</div>
+<div id="bereich31">
+  <table>
+    <tr><td><img src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2016/11/13/17/48/dragons-1821541_960_720.png"/></td></tr>
+    <tr><td><img src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/></tr>
+    <tr><td><img src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/></tr>
+  </table>
+  <input type="button" value="weiter" id="Auswahl65"/>
+</div>
+<div id="bereich32">
+  <table>
+    <tr><td><img id="Auswahl69" src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/><td><img src="https://cdn.pixabay.com/photo/2016/03/31/19/32/clouds-1295098_960_720.png"/></td></tr>
+    <tr><td><img id="falsch" src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/><td><img src="https://cdn.pixabay.com/photo/2016/03/31/19/32/clouds-1295098_960_720.png"/></td></tr>
+    <tr><td><img id="falsch" src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/><td><img src="https://cdn.pixabay.com/photo/2016/03/31/19/32/clouds-1295098_960_720.png"/></td></tr>
+  </table>
+  <p>runter,runter,hoch,runter</p>
+  <p>hoch,runter,hoch,hoch</p>
+</div>
+<div id="bereich33">
+  <table>
+    <tr><td><img src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2016/11/13/17/48/dragons-1821541_960_720.png"/></td></tr>
+    <tr><td><img src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/></tr>
+    <tr><td><img src="https://cdn.pixabay.com/photo/2013/07/12/13/16/shotgun-146722_960_720.png"/></td><td/></tr>
+  </table>
+  <input type="button" id="Auswahl59" value="weiter"/>
+</div>
+<div id="bereich23">
+<table>
+    <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" value="<="/></td><td/><td><input id="Auswahl60" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl61" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"/></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2014/12/21/23/45/door-575979_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich24">
+<table>
+    <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input id="Auswahl52" type="button" value="<="/></td><td/><td><input id="Auswahl53" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl51" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"/></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2014/12/21/23/45/door-575979_960_720.png"/></td></tr>
+  </tbody>
+</table>bereich21
+</div>
+<div id="bereich25">
+<table>
+    <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input id="Auswahl55" type="button" value="<="/></td><td/><td><input id="Auswahl56" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl54" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"/></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2014/12/21/23/45/door-575979_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich26">
+  <div id="Truhe2">
+  <table>
+      <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+    <tr><td><input id="Auswahl58" type="button" value="<="/></td><td/><td><input id="Auswahl46" type="button" value="=>"/></td></tr>
+    <tr><td/><td><input  id="Auswahl57" type="button" value="\/"/></td><td/></tr>
+  </table>
+  </div>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"/></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2015/03/03/01/51/lava-656827_960_720.jpg"></td><td><img src="https://cdn.pixabay.com/photo/2014/12/21/23/45/door-575979_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich27">
+<p id="A">Geschafft!</p>
+</div>
+</div>
+</body>
+</html>

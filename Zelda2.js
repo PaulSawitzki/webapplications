@@ -125,6 +125,8 @@ if (selected_button.is(button5)){
   werkzeug("#bereich2").hide();
   werkzeug("#bereich3").hide();
   werkzeug("#bereich4").show();
+  werkzeug("#Schwerter").show();
+  werkzeug("#Schwert1").show();
 }
 if (selected_button.is(button6)){
   werkzeug("#bereich1").hide();
@@ -140,8 +142,6 @@ if (selected_button.is(button7)){
   werkzeug("#bereich4").hide();
   werkzeug("#bereich5").hide();
   werkzeug("#bereich6").show();
-  werkzeug("#Schwerter").show();
-  werkzeug("#Schwert1").show();
 }
 if (selected_button.is(button9)){
   werkzeug("#bereich1").hide();
@@ -166,6 +166,8 @@ if (selected_button.is(button11)){
   werkzeug("#bereich4").show();
   werkzeug("#bereich5").hide();
   werkzeug("#bereich6").hide();
+  werkzeug("#Schwerter").show();
+  werkzeug("#Schwert1").show();
 }
 if (selected_button.is(button12)){
   werkzeug("#bereich1").hide();
@@ -174,8 +176,6 @@ if (selected_button.is(button12)){
   werkzeug("#bereich4").hide();
   werkzeug("#bereich5").hide();
   werkzeug("#bereich6").show();
-  werkzeug("#Schwerter").show();
-  werkzeug("#Schwert1").show();
 }
 if (selected_button.is(button13)){
   werkzeug("#bereich1").hide();
@@ -262,8 +262,6 @@ if (selected_button.is(button21)){
   werkzeug("#bereich6").show();
   werkzeug("#bereich7").hide();
   werkzeug("#bereich8").hide();
-  werkzeug("#Schwerter").show();
-  werkzeug("#Schwert1").show();
 }
 if (selected_button.is(button22)){
   werkzeug("#bereich1").hide();
@@ -1006,7 +1004,7 @@ if (selected_button.is(button58)){
   werkzeug("#bereich25").show();
   werkzeug("#bereich26").hide();
 }
-if (selected_button.is(button59)){
+if (selected_button.is(button46)){
   werkzeug("#bereich1").hide();
   werkzeug("#bereich2").hide();
   werkzeug("#bereich3").hide();

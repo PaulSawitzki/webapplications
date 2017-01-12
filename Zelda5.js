@@ -24,12 +24,20 @@ function programm(){
   werkzeug("#bereich25").hide();
   werkzeug("#bereich26").hide();
   werkzeug("#bereich27").hide();
+  werkzeug("#bereich28").hide();
+  werkzeug("#bereich29").hide();
+  werkzeug("#bereich30").hide();
+  werkzeug("#bereich31").hide();
+  werkzeug("#bereich32").hide();
+  werkzeug("#bereich33").hide();
   werkzeug("#Truheschließen").hide();
   werkzeug("#Schwert1").hide();
   werkzeug("#Schwert2").hide();
   werkzeug("#Schwert3").hide();
   werkzeug("#Schwerter").hide();
   werkzeug("#auswahlfeld").click(einblenden_eines_Objekts);
+  werkzeug("#Schiff tr td").hover(Spiel);
+  werkzeug("table tr td img").hover(versteckt)
 }
 function einblenden_eines_Objekts(event){
   var button1 = werkzeug("#Auswahl1");
@@ -92,6 +100,15 @@ function einblenden_eines_Objekts(event){
   var button59 = werkzeug("#Auswahl59");
   var button60 = werkzeug("#Auswahl60");
   var button61 = werkzeug("#Auswahl61");
+  var button62 = werkzeug("#Auswahl62");
+  var button63 = werkzeug("#Auswahl63");
+  var button64 = werkzeug("#Auswahl64");
+  var button65 = werkzeug("#Auswahl65");
+  var button66 = werkzeug("#Auswahl66");
+  var button67 = werkzeug("#Auswahl67");
+  var button68 = werkzeug("#Auswahl68");
+  var button69 = werkzeug("#Auswahl69");
+  var falsch = werkzeug("#falsch");
   var s1 = werkzeug("#S1")
   var s2 = werkzeug("#S2")
   var s3 = werkzeug("#S3")
@@ -140,8 +157,6 @@ if (selected_button.is(button7)){
   werkzeug("#bereich4").hide();
   werkzeug("#bereich5").hide();
   werkzeug("#bereich6").show();
-  werkzeug("#Schwerter").show();
-  werkzeug("#Schwert1").show();
 }
 if (selected_button.is(button9)){
   werkzeug("#bereich1").hide();
@@ -174,8 +189,6 @@ if (selected_button.is(button12)){
   werkzeug("#bereich4").hide();
   werkzeug("#bereich5").hide();
   werkzeug("#bereich6").show();
-  werkzeug("#Schwerter").show();
-  werkzeug("#Schwert1").show();
 }
 if (selected_button.is(button13)){
   werkzeug("#bereich1").hide();
@@ -262,8 +275,6 @@ if (selected_button.is(button21)){
   werkzeug("#bereich6").show();
   werkzeug("#bereich7").hide();
   werkzeug("#bereich8").hide();
-  werkzeug("#Schwerter").show();
-  werkzeug("#Schwert1").show();
 }
 if (selected_button.is(button22)){
   werkzeug("#bereich1").hide();
@@ -462,6 +473,8 @@ if (selected_button.is(button35)){
   werkzeug("#bereich16").hide();
   werkzeug("#bereich17").hide();
   werkzeug("#bereich18").show();
+  werkzeug("#Schwerter").show();
+  werkzeug("#Schwert2").show();
 }
 if (selected_button.is(button36)){
   werkzeug("#bereich1").hide();
@@ -1032,6 +1045,9 @@ if (selected_button.is(button59)){
   werkzeug("#bereich25").hide();
   werkzeug("#bereich26").hide();
   werkzeug("#bereich27").show();
+  werkzeug("#bereich33").hide();
+  werkzeug("#Schwerter").show();
+  werkzeug("#Schwert3").show();
 }
 if (selected_button.is(button60)){
   werkzeug("#bereich1").hide();
@@ -1085,5 +1101,308 @@ if (selected_button.is(button61)){
   werkzeug("#bereich25").hide();
   werkzeug("#bereich26").hide();
 }
+if (selected_button.is(button62)){
+  werkzeug("#bereich1").hide();
+  werkzeug("#bereich2").hide();
+  werkzeug("#bereich3").hide();
+  werkzeug("#bereich4").hide();
+  werkzeug("#bereich5").hide();
+  werkzeug("#bereich6").hide();
+  werkzeug("#bereich7").hide();
+  werkzeug("#bereich8").hide();
+  werkzeug("#bereich11").hide();
+  werkzeug("#bereich12").hide();
+  werkzeug("#bereich13").hide();
+  werkzeug("#bereich14").hide();
+  werkzeug("#bereich15").hide();
+  werkzeug("#bereich16").hide();
+  werkzeug("#bereich17").hide();
+  werkzeug("#bereich18").hide();
+  werkzeug("#bereich19").hide();
+  werkzeug("#bereich20").hide();
+  werkzeug("#bereich21").hide();
+  werkzeug("#bereich22").hide();
+  werkzeug("#bereich23").hide();
+  werkzeug("#bereich24").hide();
+  werkzeug("#bereich25").hide();
+  werkzeug("#bereich26").hide();
+  werkzeug("#bereich28").show();
+}
+if (selected_button.is(button63)){
+  werkzeug("#bereich1").hide();
+  werkzeug("#bereich2").hide();
+  werkzeug("#bereich3").hide();
+  werkzeug("#bereich4").hide();
+  werkzeug("#bereich5").hide();
+  werkzeug("#bereich6").hide();
+  werkzeug("#bereich7").hide();
+  werkzeug("#bereich8").hide();
+  werkzeug("#bereich11").hide();
+  werkzeug("#bereich12").hide();
+  werkzeug("#bereich13").hide();
+  werkzeug("#bereich14").hide();
+  werkzeug("#bereich15").hide();
+  werkzeug("#bereich16").hide();
+  werkzeug("#bereich17").hide();
+  werkzeug("#bereich18").hide();
+  werkzeug("#bereich19").hide();
+  werkzeug("#bereich20").hide();
+  werkzeug("#bereich21").hide();
+  werkzeug("#bereich22").hide();
+  werkzeug("#bereich23").hide();
+  werkzeug("#bereich24").hide();
+  werkzeug("#bereich25").hide();
+  werkzeug("#bereich26").hide();
+  werkzeug("#bereich29").hide();
+  werkzeug("#bereich30").show();
+}
+if (selected_button.is(button64)){
+  werkzeug("#bereich1").hide();
+  werkzeug("#bereich2").hide();
+  werkzeug("#bereich3").hide();
+  werkzeug("#bereich4").hide();
+  werkzeug("#bereich5").hide();
+  werkzeug("#bereich6").hide();
+  werkzeug("#bereich7").hide();
+  werkzeug("#bereich8").hide();
+  werkzeug("#bereich11").hide();
+  werkzeug("#bereich12").hide();
+  werkzeug("#bereich13").hide();
+  werkzeug("#bereich14").hide();
+  werkzeug("#bereich15").hide();
+  werkzeug("#bereich16").hide();
+  werkzeug("#bereich17").hide();
+  werkzeug("#bereich18").hide();
+  werkzeug("#bereich19").hide();
+  werkzeug("#bereich20").hide();
+  werkzeug("#bereich21").hide();
+  werkzeug("#bereich22").hide();
+  werkzeug("#bereich23").hide();
+  werkzeug("#bereich24").hide();
+  werkzeug("#bereich25").hide();
+  werkzeug("#bereich26").hide();
+}
+if (selected_button.is(button65)){
+  werkzeug("#bereich1").hide();
+  werkzeug("#bereich2").hide();
+  werkzeug("#bereich3").hide();
+  werkzeug("#bereich4").hide();
+  werkzeug("#bereich5").hide();
+  werkzeug("#bereich6").hide();
+  werkzeug("#bereich7").hide();
+  werkzeug("#bereich8").hide();
+  werkzeug("#bereich11").hide();
+  werkzeug("#bereich12").hide();
+  werkzeug("#bereich13").hide();
+  werkzeug("#bereich14").hide();
+  werkzeug("#bereich15").hide();
+  werkzeug("#bereich16").hide();
+  werkzeug("#bereich17").hide();
+  werkzeug("#bereich18").hide();
+  werkzeug("#bereich19").hide();
+  werkzeug("#bereich20").hide();
+  werkzeug("#bereich21").hide();
+  werkzeug("#bereich22").hide();
+  werkzeug("#bereich23").hide();
+  werkzeug("#bereich24").hide();
+  werkzeug("#bereich25").hide();
+  werkzeug("#bereich26").hide();
+  werkzeug("#bereich28").hide();
+  werkzeug("#bereich30").hide();
+  werkzeug("#bereich31").hide();
+  werkzeug("#bereich32").show();
+  werkzeug("#bereich33").hide();
+}
+if (selected_button.is(button66)){
+  werkzeug("#bereich1").hide();
+  werkzeug("#bereich2").hide();
+  werkzeug("#bereich3").hide();
+  werkzeug("#bereich4").hide();
+  werkzeug("#bereich5").hide();
+  werkzeug("#bereich6").hide();
+  werkzeug("#bereich7").hide();
+  werkzeug("#bereich8").hide();
+  werkzeug("#bereich11").hide();
+  werkzeug("#bereich12").hide();
+  werkzeug("#bereich13").hide();
+  werkzeug("#bereich14").hide();
+  werkzeug("#bereich15").hide();
+  werkzeug("#bereich16").hide();
+  werkzeug("#bereich17").hide();
+  werkzeug("#bereich18").hide();
+  werkzeug("#bereich19").hide();
+  werkzeug("#bereich20").hide();
+  werkzeug("#bereich21").hide();
+  werkzeug("#bereich22").hide();
+  werkzeug("#bereich23").hide();
+  werkzeug("#bereich24").hide();
+  werkzeug("#bereich25").hide();
+  werkzeug("#bereich26").hide();
+}
+if (selected_button.is(button67)){
+  werkzeug("#bereich1").hide();
+  werkzeug("#bereich2").hide();
+  werkzeug("#bereich3").hide();
+  werkzeug("#bereich4").hide();
+  werkzeug("#bereich5").hide();
+  werkzeug("#bereich6").hide();
+  werkzeug("#bereich7").hide();
+  werkzeug("#bereich8").hide();
+  werkzeug("#bereich11").hide();
+  werkzeug("#bereich12").hide();
+  werkzeug("#bereich13").hide();
+  werkzeug("#bereich14").hide();
+  werkzeug("#bereich15").hide();
+  werkzeug("#bereich16").hide();
+  werkzeug("#bereich17").hide();
+  werkzeug("#bereich18").hide();
+  werkzeug("#bereich19").hide();
+  werkzeug("#bereich20").hide();
+  werkzeug("#bereich21").hide();
+  werkzeug("#bereich22").hide();
+  werkzeug("#bereich23").hide();
+  werkzeug("#bereich24").hide();
+  werkzeug("#bereich25").hide();
+  werkzeug("#bereich26").hide();
+  werkzeug("#bereich28").hide();
+  werkzeug("#bereich29").show();
+}
+if (selected_button.is(button68)){
+  werkzeug("#bereich1").hide();
+  werkzeug("#bereich2").hide();
+  werkzeug("#bereich3").hide();
+  werkzeug("#bereich4").hide();
+  werkzeug("#bereich5").hide();
+  werkzeug("#bereich6").hide();
+  werkzeug("#bereich7").hide();
+  werkzeug("#bereich8").hide();
+  werkzeug("#bereich11").hide();
+  werkzeug("#bereich12").hide();
+  werkzeug("#bereich13").hide();
+  werkzeug("#bereich14").hide();
+  werkzeug("#bereich15").hide();
+  werkzeug("#bereich16").hide();
+  werkzeug("#bereich17").hide();
+  werkzeug("#bereich18").hide();
+  werkzeug("#bereich19").hide();
+  werkzeug("#bereich20").hide();
+  werkzeug("#bereich21").hide();
+  werkzeug("#bereich22").hide();
+  werkzeug("#bereich23").hide();
+  werkzeug("#bereich24").hide();
+  werkzeug("#bereich25").hide();
+  werkzeug("#bereich26").hide();
+  werkzeug("#bereich28").hide();
+  werkzeug("#bereich29").hide();
+  werkzeug("#bereich30").hide();
+  werkzeug("#bereich31").show();
+  werkzeug("#bereich33").hide();
+}
+if (selected_button.is(button69)){
+  werkzeug("#bereich1").hide();
+  werkzeug("#bereich2").hide();
+  werkzeug("#bereich3").hide();
+  werkzeug("#bereich4").hide();
+  werkzeug("#bereich5").hide();
+  werkzeug("#bereich6").hide();
+  werkzeug("#bereich7").hide();
+  werkzeug("#bereich8").hide();
+  werkzeug("#bereich11").hide();
+  werkzeug("#bereich12").hide();
+  werkzeug("#bereich13").hide();
+  werkzeug("#bereich14").hide();
+  werkzeug("#bereich15").hide();
+  werkzeug("#bereich16").hide();
+  werkzeug("#bereich17").hide();
+  werkzeug("#bereich18").hide();
+  werkzeug("#bereich19").hide();
+  werkzeug("#bereich20").hide();
+  werkzeug("#bereich21").hide();
+  werkzeug("#bereich22").hide();
+  werkzeug("#bereich23").hide();
+  werkzeug("#bereich24").hide();
+  werkzeug("#bereich25").hide();
+  werkzeug("#bereich26").hide();
+  werkzeug("#bereich28").hide();
+  werkzeug("#bereich29").hide();
+  werkzeug("#bereich30").hide();
+  werkzeug("#bereich31").hide();
+  werkzeug("#bereich32").hide();
+  werkzeug("#bereich33").show();
+}
+if (selected_button.attr('id') == "falsch"){
+  werkzeug("#bereich1").hide();
+  werkzeug("#bereich2").hide();
+  werkzeug("#bereich3").hide();
+  werkzeug("#bereich4").hide();
+  werkzeug("#bereich5").hide();
+  werkzeug("#bereich6").hide();
+  werkzeug("#bereich7").hide();
+  werkzeug("#bereich8").hide();
+  werkzeug("#bereich11").hide();
+  werkzeug("#bereich12").hide();
+  werkzeug("#bereich13").hide();
+  werkzeug("#bereich14").show();
+  werkzeug("#bereich15").hide();
+  werkzeug("#bereich16").hide();
+  werkzeug("#bereich17").hide();
+  werkzeug("#bereich18").hide();
+  werkzeug("#bereich19").hide();
+  werkzeug("#bereich20").hide();
+  werkzeug("#bereich21").hide();
+  werkzeug("#bereich22").hide();
+  werkzeug("#bereich23").hide();
+  werkzeug("#bereich24").hide();
+  werkzeug("#bereich25").hide();
+  werkzeug("#bereich26").hide();
+  werkzeug("#bereich28").hide();
+  werkzeug("#bereich29").hide();
+  werkzeug("#bereich30").hide();
+  werkzeug("#bereich31").hide();
+  werkzeug("#bereich32").hide();
+  werkzeug("#bereich33").hide();
+}
+}
+function Spiel(event){
+  var Schiff = werkzeug("#Schiff");
+  var falsch1 = werkzeug("#x1");
+  var falsch2 = werkzeug("#x2");
+  var falsch3 = werkzeug("#x3");
+  var falsch4 = werkzeug("#x4");
+  var falsch5 = werkzeug("#x5")
+  var falsch6 = werkzeug("#x6")
+  var hoverd = werkzeug(event.target);
+
+  if (hoverd.is(falsch1)){
+  werkzeug("#bereich12").hide();
+  werkzeug("#bereich14").show();
+}
+if (hoverd.is(falsch2)){
+werkzeug("#bereich12").hide();
+werkzeug("#bereich14").show();
+}
+if (hoverd.is(falsch3)){
+werkzeug("#bereich12").hide();
+werkzeug("#bereich14").show();
+}
+if (hoverd.is(falsch4)){
+werkzeug("#bereich12").hide();
+werkzeug("#bereich14").show();
+}
+if (hoverd.is(falsch5)){
+werkzeug("#bereich12").hide();
+werkzeug("#bereich14").show();
+}
+if  (hoverd.attr('id') == "x6"){
+werkzeug("#bereich12").hide();
+werkzeug("#bereich14").show();
+}
+}
+function versteckt(event){
+  var hoverd = werkzeug(event.target);
+   if (hoverd.attr('id') == "Busch"){
+     werkzeug("#Schwerter").show();
+     werkzeug("#Schwert1").show();
+   }
 }
 werkzeug.start(programm);

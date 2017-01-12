@@ -1,0 +1,365 @@
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Zelda Labyrinth</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" href="Zelda.css">
+  <script src="werkzeug.js" type="text/javascript"></script>
+  <script src="Zelda(Keyboard-Steuerung).js" type="text/javascript"></script>
+  <script>document.addEventListener("touchstart", function(){}, true);</script>
+</head>
+<body>
+<div id="auswahlfeld">
+  <table id="Schwerter">
+    <tr>
+      <td><img class="Schwerter" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png" id="Schwert1"></td><td><img class="Schwerter" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png" id="Schwert2"></td><td><img class="Schwerter" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png" id="Schwert3"></td></tr></table>
+  <div id="bereich1">
+  <table>
+      <tr><td/><td><input id="Auswahl5" type="button" value="/\"></input></td><td/></tr>
+    <tr><td><input type="button" value="<="/></td><td/><td><input id="Auswahl1" type="button" value="=>"/></td></tr>
+    <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+  </table>
+  <table>
+    <thead>
+      <tr><td/><td/><td/>
+    </thead>
+    <tbody>
+      <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/><img id="S1" class="" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+      <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png"/></td></tr>
+    </tbody>
+  </table>
+</div>
+  <div id="bereich2">
+  <table>
+    <tr><td/><td><input id="Auswahl6" type="button" value="/\"></input></td><td/></tr>
+    <tr><td><input id="Auswahl2"  type="button" value="<="/></td><td/><td><input type="button" id="Auswahl3"  value="=>"/></td></tr>
+    <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+  </table>
+  <table>
+    <thead>
+      <tr><td/><td/><td/>
+    </thead>
+    <tbody>
+      <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/><img id="S2" class="" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+      <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png"/></td></tr>
+    </tbody>
+  </table>
+</div>
+<div id="bereich3">
+<table>
+  <tr><td/><td><input id="Auswahl7" type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" id="Auswahl4"  value="<="/></td><td/><td><input id="Auswahl17" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/><img id="S3" class="" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich4">
+<table>
+  <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" id="Auswahl8"  value="<="/></td><td/><td><input id="Auswahl9" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl10" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/><img id="S4" class="" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich5">
+<table>
+  <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" id="Auswahl11"  value="<="/></td><td/><td><input id="Auswahl12" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl13" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/><img id="S3" class="" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><table>
+      <thead>
+        <tr><td/><td/><td/>
+      </thead>
+      <tbody></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich6">
+<table>
+  <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" id="Auswahl14"  value="<="/></td><td/><td><input id="Auswahl15" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl16" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"/><img id="S2" class="" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich7">
+<table>
+  <tr><td/><td><input type="button"id="Auswahl18" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" id="Auswahl19"  value="<="/></td><td/><td><input id="Auswahl20" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+  <tr><td/><td><input id="Auswahl24" type="button" value="In das Boot einsteigen"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/><img id="S8" class="" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich8">
+<table>
+  <tr><td/><td><input  type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" id="Auswahl21"  value="<="/></td><td/><td><input id="Auswahl22" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl23" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"><img id="S2" class="" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"/></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich11">
+<table>
+    <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input  id="Auswahl25"  type="button" value="<="/></td><td/><td><input id="Auswahl26" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+<table id="Schiff">
+  <tr><td/><td class="rechts"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td></tr>
+  <tr><td/><td class="rechts"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td></tr>
+  <tr><td class="links"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td><td class="rechts"><img src="https://cdn.pixabay.com/photo/2012/05/07/12/17/logs-48281_960_720.png"/></td></tr>
+</table>
+</div>
+<div id="bereich12">
+<table>
+  <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+<tr><td><input  id="Auswahl27"  type="button" value="<="/></td><td/><td><input id="Auswahl28" type="button" value="=>"/></td></tr>
+<tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+<table id="Schiff">
+  <tr><td class="links"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td><td/></tr>
+<tr><td/><td class="rechts"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td></tr>
+<tr><td class="links"><img src="https://cdn.pixabay.com/photo/2012/05/07/12/17/logs-48281_960_720.png"/></td><td class="rechts"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td></tr>
+</table>
+</div>
+<div id="bereich13">
+<table>
+  <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+<tr><td><input  id="Auswahl29"  type="button" value="<="/></td><td/><td><input id="Auswahl30" type="button" value="=>"/></td></tr>
+<tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+<table id="Schiff">
+<tr><td/><td class="rechts"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td>
+<tr><td class="links"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td><td/></tr>
+<tr><td class="links"><img src="https://cdn.pixabay.com/photo/2012/05/07/12/17/logs-48281_960_720.png"/></td><td class="rechts"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td></tr>
+</table>
+</div>
+<div id="bereich15">
+<table>
+<tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+<tr><td><input id="Auswahl31"  type="button" value="<="/></td><td/><td><input id="Auswahl32" type="button" value="=>"/></td></tr>
+<tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+<table id="Schiff">
+<tr><td class="links"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td><td><img id="S1" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png"/></td></tr>
+<tr><td/><td class="rechts"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td>
+<tr><td class="links"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td><td class="rechts"><img src="https://cdn.pixabay.com/photo/2012/05/07/12/17/logs-48281_960_720.png"/></td></tr>
+</table>
+</div>
+<div id="bereich16">
+<table>
+<tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+<tr><td><input  id="Auswahl33"  type="button" value="<="/></td><td/><td><input id="Auswahl34" type="button" value="=>"/></td></tr>
+<tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+<table id="Schiff">
+<tr><td class="links"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td><td><img id="S1" src="https://cdn.pixabay.com/photo/2014/04/03/00/36/sword-308836_960_720.png"/></td></tr>
+<tr><td class="links"><img src="https://cdn.pixabay.com/photo/2012/05/07/12/17/logs-48281_960_720.png"/></td><td class="rechts"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td></tr>
+</table>
+</div>
+<div id="bereich17">
+<table>
+<tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+<tr><td><input type="button" value="<="/></td><td/><td><input type="button" value="=>"/></td></tr>
+<tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+<tr><td/><td><input type="button" value="Aussteigen" id="Auswahl35"/>
+</table>
+<table id="Schiff">
+<tr><td class="links"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/24/branch-1295738_960_720.png"/></td><td class="links"><img src="https://cdn.pixabay.com/photo/2012/05/07/12/17/logs-48281_960_720.png"/></td></tr>
+</table>
+</div>
+<div id="bereich14">
+<p>Game Over!!!</p>
+</div>
+  <div id="bereich18">
+  <table>
+      <tr><td/><td><input id="Auswahl36" type="button" value="/\"></input></td><td/></tr>
+    <tr><td><input type="button" value="<="/></td><td/><td><input id="Auswahl37" type="button" value="=>"/></td></tr>
+    <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+  </table>
+  <table>
+    <thead>
+      <tr><td/><td/><td/>
+    </thead>
+    <tbody>
+      <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+      <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/09/09/15/45/chest-1657362_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/></td></tr>
+    </tbody>
+  </table>
+</div>
+<div id="bereich19">
+<table>
+    <tr><td/><td><input id="Auswahl38" type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input id="Auswahl39" type="button" value="<="/></td><td/><td><input id="Auswahl40" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/09/09/15/45/chest-1657362_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich20">
+<table>
+    <tr><td/><td><input id="Auswahl41" type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input id="Auswahl42" type="button" value="<="/></td><td/><td><input id="Auswahl43" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/09/09/15/45/chest-1657362_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich21">
+<div id="Truhe">
+<table>
+    <tr><td/><td><input id="Auswahl44" type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input id="Auswahl45" type="button" value="<="/></td><td/><td><input id="Auswahl46" type="button" value="=>"/></td></tr>
+  <tr id="Truheöffnen"><td/><td><input id="Auswahl47" type="button" value="Truhe öffnen"/></td><td/></tr>
+  <tr id="Truheschließen"><td/><td><input type="button" value="\/"/></td><td/></tr>
+</table>
+</div>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/09/09/15/45/chest-1657362_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich22">
+  <p>wie viele dieser Bäume hast du gesehen?</p>
+  <p><img src="https://cdn.pixabay.com/photo/2016/10/29/21/01/tree-1781578_960_720.png"/></p>
+  <p><input type="button" id="Auswahl48" value="4"/><input type="button" id="Auswahl49"/ value="7"><input type="button" id="Auswahl50" value="3"/>
+</div>
+<div id="bereich23">
+<table>
+    <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input type="button" value="<="/></td><td/><td><input id="Auswahl60" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl61" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/09/09/15/45/chest-1657362_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich24">
+<table>
+    <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input id="Auswahl52" type="button" value="<="/></td><td/><td><input id="Auswahl53" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl51" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/09/09/15/45/chest-1657362_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/></td></tr>
+  </tbody>
+</table>bereich21
+</div>
+<div id="bereich25">
+<table>
+    <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+  <tr><td><input id="Auswahl55" type="button" value="<="/></td><td/><td><input id="Auswahl56" type="button" value="=>"/></td></tr>
+  <tr><td/><td><input id="Auswahl54" type="button" value="\/"/></td><td/></tr>
+</table>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/09/09/15/45/chest-1657362_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich26">
+  <div id="Truhe2">
+  <table>
+      <tr><td/><td><input type="button" value="/\"></input></td><td/></tr>
+    <tr><td><input id="Auswahl58" type="button" value="<="/></td><td/><td><input id="Auswahl59" type="button" value="=>"/></td></tr>
+    <tr><td/><td><input  id="Auswahl57" type="button" value="\/"/></td><td/></tr>
+  </table>
+  </div>
+<table>
+  <thead>
+    <tr><td/><td/><td/>
+  </thead>
+  <tbody>
+    <tr class="himmel"><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"/></td><td><img src="https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2014/07/18/18/05/zelda-396581_960_720.png"></td></tr>
+    <tr class="boden"><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2013/07/13/01/20/cactus-155567_960_720.png"></td><td><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/09/09/15/45/chest-1657362_960_720.png"/><img src="https://cdn.pixabay.com/photo/2016/10/18/19/45/question-mark-1751217_960_720.png"/></td></tr>
+  </tbody>
+</table>
+</div>
+<div id="bereich27">
+<p id="A">Geschafft!</p>
+</div>
+</div>
+</body>
+</html>

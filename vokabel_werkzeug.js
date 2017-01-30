@@ -9,6 +9,6 @@ for(i in array) {
       var vokabel = {deutsch: deutsch_fremdsprache[1], fremdsprache: deutsch_fremdsprache[0]};
       vokabeln.push(vokabel)
     }
-}
 
 fs.writeFile(base_name + '.json', JSON.stringify(vokabeln));
+}

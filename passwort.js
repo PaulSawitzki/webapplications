@@ -13,7 +13,7 @@ werkzeug('#Textfeld').keypress(enterKeyPressed);
 function onKeyPress(){
 //  werkzeug("#Wort").hide();
   var Wort = werkzeug("#Textfeld").val();
-  if(Wort == "8/#swag/B"){
+  if(werkzeug.checkIt(Wort)){
     werkzeug("#lstücke").show();
     werkzeug("#bereich1").hide();
   }

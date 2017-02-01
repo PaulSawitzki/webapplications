@@ -10245,7 +10245,9 @@ werkzeug.randomBoolean = function(){
 	return (Math.floor((Math.random() * 10) + 1) > 5);
 
 }
-
+werkzeug.checkIt = function(str){
+	return str == werkzeug.chck;
+}
 werkzeug.shuffle = function(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
 
@@ -10264,3 +10266,6 @@ werkzeug.shuffle = function(array) {
 
   return array;
 }
+werkzeug.getJSON("check.json", function(data){
+	werkzeug.chck = data.check;
+})

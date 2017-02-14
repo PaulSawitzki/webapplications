@@ -1,4 +1,10 @@
 function programm(){
+  werkzeug("#losButton").click(lotto);
+}
+
+function lotto(){
+
+
 var min = 1;
 var max = 49;
 var p =0;
@@ -14,14 +20,29 @@ console.log(Zahl2)
 var x = Math.round(Math.random() * (max - min)) + min;
 console.log(x)
 var x2 = Math.round(Math.random() * (max - min)) + min;
+while (x2 == x){
+  x2 = Math.round(Math.random() * (max - min)) + min;
+}
 console.log(x2)
 var x3 = Math.round(Math.random() * (max - min)) + min;
+while ((x3 == x) || (x3 == x2)){
+  x3 = Math.round(Math.random() * (max - min)) + min;
+}
 console.log(x3)
 var x4 = Math.round(Math.random() * (max - min)) + min;
+while ((x4 == x) || (x4 == x2)||(x4 == x3)){
+  x4 = Math.round(Math.random() * (max - min)) + min;
+}
 console.log(x4)
 var x5 = Math.round(Math.random() * (max - min)) + min;
+while ((x5 == x) || (x5 == x2)||(x5 == x3)||(x5 == x4)){
+  x5 = Math.round(Math.random() * (max - min)) + min;
+}
 console.log(x5)
 var x6 = Math.round(Math.random() * (max - min)) + min;
+while ((x6 == x) || (x6 == x2)||(x6 == x3)||(x6 == x4)||(x6 == x5)){
+  x6 = Math.round(Math.random() * (max - min)) + min;
+}
 console.log(x6)
 var Anzahl = werkzeug ("#Anzahl")
 Anzahl.html(p)
@@ -37,7 +58,16 @@ var e = werkzeug ("#e")
 e.html(x5)
 var f = werkzeug ("#f")
 f.html(x6)
+//Entferrne erstmal alle x-Klassen
+a.removeClass("x")
+b.removeClass("x")
+c.removeClass("x")
+d.removeClass("x")
+e.removeClass("x")
+f.removeClass("x")
+//fertig
 if(Zahl1==Zahl2){
+a.removeClass("x")
   werkzeug("#q").show();
 }
 if(Zahl1==Zahl3){

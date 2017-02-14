@@ -1,0 +1,42 @@
+input{
+  width:50px;
+}
+#a{
+  color:green;
+}
+#b{
+  color:green;
+}
+#c{
+  color:green;
+}
+#d{
+  color:green;
+}
+#e{
+  color:green;
+}
+#f{
+  color:green;
+}
+#Anzahl{
+  color:red;
+}
+#a.x{
+  color:blue;
+}
+#b.x{
+  color:blue;
+}
+#c.x{
+  color:blue;
+}
+#d.x{
+  color:blue;
+}
+#e.x{
+  color:blue;
+}
+#f.x{
+  color:blue;
+}

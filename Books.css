@@ -1,0 +1,52 @@
+body{
+  background-color:aqua;
+  color:black;
+  text-align:center;
+}
+table{
+  border:none;
+  text-align: center;
+}
+tr{
+  border:none;
+  text-align: center;
+}
+td{
+  border:none;
+  text-align: center;
+}
+#sonstiges-tabelle{
+  border:solid;
+  text-align: center;
+}
+tr.q{
+  border:solid;
+  text-align: center;
+}
+td.x{
+  border:solid;
+  text-align: center;
+}
+#logo{
+  height:250px;
+  width:250px;
+}
+#einstellungen{
+  height:250px;
+  width:250px;
+}
+#AA1{
+  height:100px;
+  width:100px;
+}
+#info{
+  height:50px;
+  width:50px;
+}
+div.m{
+  margin-left:40%;
+  margin-right:70%;
+}
+hr{
+  color:darkblue;
+}

@@ -1,0 +1,18 @@
+#oben{
+    height:100px;
+    width:400px;
+}
+#unten{
+    height:100px;
+    width:400px;
+}
+td{
+    height:50px;
+    width:100px;
+    background-color: aqua;
+}
+td.we{
+    height:50px;
+    width:100px;
+background-color: white;
+}
